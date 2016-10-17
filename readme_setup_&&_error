@@ -1,0 +1,33 @@
+
+      database โปรแกรมนมแม่
+  ip="http://kkucleft.kku.ac.th/";
+
+
+ให้ไป set ค่าที่ Mainboard  กด DEL หรือ อื่นๆ
+ให้ไป  Enable  VT   หรืออื่นๆตามที่่มันแจ้ง
+
+
+การสร้างตัว simmulate ให้เลือกใช้
+   Nexus 5X API 23    Android 6.0    CPU/  x86 
+
+
+
+
+//------------------   ถ้า error ------------ tool 21.1.2-----------------------
+error   tool  21.1.2    โปรแกรม register cleft
+
+   แก้ปัญหาโปรแกรม register cleft error จาก 21.1.2
+Error:org.gradle.process.internal.ExecException: A problem occurred starting process 'command '/home/linux/Android/Sdk/build-tools/21.1.2/aapt''
+
+
+http://stackoverflow.com/questions/29148282/gradle-build-failed-in-android-studio
+
+
+sudo dpkg --add-architecture i386
+sudo apt-get update
+sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386
+
+
+sudo apt-get install lib32stdc++6
+sudo apt-get install lib32z1
+//------------------   ถ้า error ------------ tool 21.1.2-----------------------
